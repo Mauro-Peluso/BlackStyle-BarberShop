@@ -28,9 +28,38 @@ nav a {
 
 /* HERO */
 .hero {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("img/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     text-align: center;
-    padding: 80px 20px;
-    background-color: #1a1a1a;
+    padding: 120px 20px;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 160px 20px;
+    }
+
+    .hero h2 {
+        font-size: 3rem;
+    }
 }
 
 button {
