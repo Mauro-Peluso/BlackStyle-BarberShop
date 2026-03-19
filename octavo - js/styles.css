@@ -4,7 +4,6 @@ body {
     background-color: #0d0d0d;
     color: white;
 }
-
 /* HEADER FLEXBOX */
 header {
     display: flex;
